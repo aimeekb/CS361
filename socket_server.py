@@ -18,7 +18,7 @@ def socket_server():
     HOST = "127.0.0.1"
     PORT = 62545
     base_url= "https://maps.googleapis.com/maps/api/geocode/json?"
-    AUTH_KEY = 'AIzaSyCziQ1u2q76jTMBnKPGZ1fMgYcYzNXdvs8'
+    AUTH_KEY = '< API Key Here >'
     server_address = (HOST, PORT)
 
     # Creating the socket
