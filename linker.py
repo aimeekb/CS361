@@ -13,7 +13,7 @@ def youtubeLinker():
 
     api_service_name = "youtube"
     api_version = "v3"
-    api_key = "AIzaSyBIiBqvVNia6aUYOhWb9wkvrI5H36UzQNw"
+    api_key = '< API Key Here >'
     youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=api_key)
 
